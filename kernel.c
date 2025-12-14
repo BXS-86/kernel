@@ -40,122 +40,122 @@
 #define ENOTBLK      16
 #define EBUSY        17
 #define EEXIST       18
-#define EXDEV        19
-#define ENODEV       20
-#define ENOTDIR      21
-#define EISDIR       22
-#define EINVAL       23
-#define ENFILE       24
-#define EMFILE       25
-#define ENOTTY       26
-#define ETXTBSY      27
-#define EFBIG        28
-#define ENOSPC       29
-#define ESPIPE       30
+#define EXDEV       19
+#define ENODEV      20
+#define ENOTDIR     21
+#define EISDIR      22
+#define EINVAL      23
+#define ENFILE      24
+#define EMFILE      25
+#define ENOTTY      26
+#define ETXTBSY     27
+#define EFBIG       28
+#define ENOSPC      29
+#define ESPIPE      30
 #define EROFS       31
-#define EMLINK       32
-#define EPIPE        33
-#define EDOM         34
-#define ERANGE       35
-#define EDEADLK      36
+#define EMLINK      32
+#define EPIPE       33
+#define EDOM        34
+#define ERANGE      35
+#define EDEADLK     36
 #define ENAMETOOLONG 37
-#define ENOLCK       38
-#define ENOSYS2      39
-#define ENOTEMPTY    40
-#define ELOOP        41
-#define EWOULDBLOCK  42
-#define ENOMSG       43
-#define EIDRM        44
-#define ECHRNG       45
-#define EL2NSYNC     46
-#define EL3HLT       47
-#define EL3RST       48
-#define ELNRNG       49
-#define EUNATCH      50
-#define ENOCSI       51
-#define EL2HLT       52
-#define EBADE        53
-#define EBADR        54
-#define EXFULL       55
-#define ENOANO       56
-#define EBADRQC      57
-#define EBADSLT      58
-#define EDEADLOCK    59
-#define EBFONT       60
-#define ENOSTR       61
-#define ENODATA      62
-#define ETIME        63
-#define ENOSR        64
-#define ENONET       65
-#define ENOPKG       66
-#define EREMOTE      67
-#define ENOLINK      68
-#define EADV         69
-#define ESRMNT       70
-#define ECOMM        71
-#define EPROTO       72
-#define EMULTIHOP    73
-#define EDOTDOT      74
-#define EBADMSG      75
-#define EOVERFLOW    76
-#define ENOTUNIQ     77
-#define EBADFD       78
-#define EREMCHG      79
-#define ELIBACC      80
-#define ELIBBAD      81
-#define ELIBSCN      82
-#define ELIBMAX      83
-#define ELIBEXEC     84
-#define EILSEQ       85
-#define ERESTART     86
-#define ESTRPIPE     87
-#define EUSERS       88
-#define ENOTSOCK     89
+#define ENOLCK      38
+#define ENOSYS2     39
+#define ENOTEMPTY   40
+#define ELOOP       41
+#define EWOULDBLOCK 42
+#define ENOMSG      43
+#define EIDRM       44
+#define ECHRNG      45
+#define EL2NSYNC    46
+#define EL3HLT      47
+#define EL3RST      48
+#define ELNRNG      49
+#define EUNATCH     50
+#define ENOCSI      51
+#define EL2HLT      52
+#define EBADE       53
+#define EBADR       54
+#define EXFULL      55
+#define ENOANO      56
+#define EBADRQC     57
+#define EBADSLT     58
+#define EDEADLOCK   59
+#define EBFONT      60
+#define ENOSTR      61
+#define ENODATA     62
+#define ETIME       63
+#define ENOSR       64
+#define ENONET      65
+#define ENOPKG      66
+#define EREMOTE     67
+#define ENOLINK     68
+#define EADV        69
+#define ESRMNT      70
+#define ECOMM       71
+#define EPROTO      72
+#define EMULTIHOP   73
+#define EDOTDOT     74
+#define EBADMSG     75
+#define EOVERFLOW   76
+#define ENOTUNIQ    77
+#define EBADFD      78
+#define EREMCHG     79
+#define ELIBACC     80
+#define ELIBBAD     81
+#define ELIBSCN     82
+#define ELIBMAX     83
+#define ELIBEXEC    84
+#define EILSEQ      85
+#define ERESTART    86
+#define ESTRPIPE    87
+#define EUSERS      88
+#define ENOTSOCK    89
 #define EDESTADDRREQ 90
-#define EMSGSIZE     91
-#define EPROTOTYPE   92
-#define ENOPROTOOPT  93
+#define EMSGSIZE    91
+#define EPROTOTYPE  92
+#define ENOPROTOOPT 93
 #define EPROTONOSUPPORT 94
 #define ESOCKTNOSUPPORT 95
-#define EOPNOTSUPP   96
+#define EOPNOTSUPP  96
 #define EPFNOSUPPORT 97
 #define EAFNOSUPPORT 98
-#define EADDRINUSE   99
+#define EADDRINUSE  99
 #define EADDRNOTAVAIL 100
-#define ENETDOWN     101
-#define ENETUNREACH  102
-#define ENETRESET    103
+#define ENETDOWN    101
+#define ENETUNREACH 102
+#define ENETRESET   103
 #define ECONNABORTED 104
-#define ECONNRESET   105
-#define ENOBUFS      106
-#define EISCONN      107
-#define ENOTCONN     108
-#define ESHUTDOWN    109
+#define ECONNRESET  105
+#define ENOBUFS     106
+#define EISCONN     107
+#define ENOTCONN    108
+#define ESHUTDOWN   109
 #define ETOOMANYREFS 110
-#define ETIMEDOUT    111
+#define ETIMEDOUT   111
 #define ECONNREFUSED 112
-#define EHOSTDOWN    113
+#define EHOSTDOWN   113
 #define EHOSTUNREACH 114
-#define EALREADY     115
-#define EINPROGRESS  116
-#define ESTALE       117
-#define EUCLEAN      118
-#define ENOTNAM      119
-#define ENAVAIL      120
-#define EISNAM       121
-#define EREMOTEIO    122
-#define EDQUOT       123
-#define ENOMEDIUM    124
-#define EMEDIUMTYPE  125
-#define ECANCELED    126
-#define ENOKEY       127
-#define EKEYEXPIRED  128
-#define EKEYREVOKED  129
+#define EALREADY    115
+#define EINPROGRESS 116
+#define ESTALE      117
+#define EUCLEAN     118
+#define ENOTNAM     119
+#define ENAVAIL     120
+#define EISNAM      121
+#define EREMOTEIO   122
+#define EDQUOT      123
+#define ENOMEDIUM   124
+#define EMEDIUMTYPE 125
+#define ECANCELED   126
+#define ENOKEY      127
+#define EKEYEXPIRED 128
+#define EKEYREVOKED 129
 #define EKEYREJECTED 130
-#define EOWNERDEAD   131
+#define EOWNERDEAD  131
 #define ENOTRECOVERABLE 132
-#define ERFKILL      133
-#define EHWPOISON    134
+#define ERFKILL     133
+#define EHWPOISON   134
 
 #define O_RDONLY     00
 #define O_WRONLY     01
@@ -432,6 +432,31 @@ typedef struct {
     dirent_t* (*readdir)(u64, u64);
 } fs_ops;
 
+typedef struct page_table_entry {
+    u64 present : 1;
+    u64 writable : 1;
+    u64 user : 1;
+    u64 write_through : 1;
+    u64 cache_disable : 1;
+    u64 accessed : 1;
+    u64 dirty : 1;
+    u64 huge_page : 1;
+    u64 global : 1;
+    u64 available1 : 3;
+    u64 address : 40;
+    u64 available2 : 11;
+    u64 no_execute : 1;
+} page_table_entry;
+
+typedef struct page_table {
+    page_table_entry entries[512];
+} page_table;
+
+#define PML4_INDEX(vaddr) (((vaddr) >> 39) & 0x1FF)
+#define PDP_INDEX(vaddr) (((vaddr) >> 30) & 0x1FF)
+#define PD_INDEX(vaddr) (((vaddr) >> 21) & 0x1FF)
+#define PT_INDEX(vaddr) (((vaddr) >> 12) & 0x1FF)
+
 static volatile u16 *vga_buffer = (volatile u16*)VGA_MEMORY;
 static int cursor_x = 0;
 static int cursor_y = 0;
@@ -467,6 +492,9 @@ static fs_ops* mounted_fs[MAX_MOUNTS];
 static u64 mount_points[MAX_MOUNTS];
 static char mount_paths[MAX_MOUNTS][256];
 static u32 num_mounts = 0;
+static page_table *kernel_pml4 = NULL;
+static page_table *free_page_list = NULL;
+static u64 next_inode = 1;
 
 static void vga_update_cursor(void) {
     u16 pos = cursor_y * VGA_WIDTH + cursor_x;
@@ -576,39 +604,39 @@ void kprintf(const char *fmt, ...) {
     __builtin_va_end(args);
 }
 
-static void *memset(void *ptr, int value, usize_t num) {
+static void *kernel_memset(void *ptr, int value, usize_t num) {
     unsigned char *p = (unsigned char*)ptr;
     while (num--) *p++ = value;
     return ptr;
 }
 
-static void *memcpy(void *dest, const void *src, usize_t num) {
+static void *kernel_memcpy(void *dest, const void *src, usize_t num) {
     unsigned char *d = (unsigned char*)dest;
     const unsigned char *s = (const unsigned char*)src;
     while (num--) *d++ = *s++;
     return dest;
 }
 
-static usize_t strlen(const char *str) {
+static usize_t kernel_strlen(const char *str) {
     usize_t len = 0;
     while (str[len]) len++;
     return len;
 }
 
-static char *strcpy(char *dest, const char *src) {
+static char *kernel_strcpy(char *dest, const char *src) {
     char *d = dest;
     while ((*d++ = *src++));
     return dest;
 }
 
-static int strcmp(const char *str1, const char *str2) {
+static int kernel_strcmp(const char *str1, const char *str2) {
     while (*str1 && *str1 == *str2) {
         str1++; str2++;
     }
     return *(unsigned char*)str1 - *(unsigned char*)str2;
 }
 
-static int strncmp(const char *str1, const char *str2, usize_t n) {
+static int kernel_strncmp(const char *str1, const char *str2, usize_t n) {
     while (n-- && *str1 && *str2) {
         if (*str1 != *str2) return *(unsigned char*)str1 - *(unsigned char*)str2;
         str1++; str2++;
@@ -617,13 +645,204 @@ static int strncmp(const char *str1, const char *str2, usize_t n) {
     return *(unsigned char*)str1 - *(unsigned char*)str2;
 }
 
-static char *strncpy(char *dest, const char *src, usize_t n) {
+static char *kernel_strncpy(char *dest, const char *src, usize_t n) {
     usize_t i;
     for (i = 0; i < n && src[i] != '\0'; i++)
         dest[i] = src[i];
     for (; i < n; i++)
         dest[i] = '\0';
     return dest;
+}
+
+static char *kernel_strstr(const char *haystack, const char *needle) {
+    if (!*needle) return (char*)haystack;
+    
+    for (; *haystack; haystack++) {
+        const char *h = haystack;
+        const char *n = needle;
+        
+        while (*h && *n && *h == *n) {
+            h++;
+            n++;
+        }
+        
+        if (!*n) return (char*)haystack;
+    }
+    
+    return NULL;
+}
+
+static page_table *alloc_page_table(void) {
+    if (free_page_list) {
+        page_table *table = free_page_list;
+        free_page_list = (page_table*)(*(u64*)free_page_list);
+        kernel_memset(table, 0, PAGE_SIZE);
+        return table;
+    }
+    
+    for (u64 i = 0; i < memory_map_size; i++) {
+        if (!memory_map[i].used && memory_map[i].size >= PAGE_SIZE) {
+            memory_map[i].used = 1;
+            page_table *table = (page_table*)(memory_map[i].start);
+            kernel_memset(table, 0, PAGE_SIZE);
+            memory_map[i].start += PAGE_SIZE;
+            memory_map[i].size -= PAGE_SIZE;
+            return table;
+        }
+    }
+    return NULL;
+}
+
+static void free_page_table(page_table *table) {
+    *(u64*)table = (u64)free_page_list;
+    free_page_list = table;
+}
+
+static void map_page(u64 vaddr, u64 paddr, u64 flags) {
+    page_table *pml4 = kernel_pml4;
+    page_table_entry *pml4e = &pml4->entries[PML4_INDEX(vaddr)];
+    
+    if (!pml4e->present) {
+        page_table *pdp = alloc_page_table();
+        if (!pdp) return;
+        kernel_memset(pml4e, 0, sizeof(page_table_entry));
+        pml4e->present = 1;
+        pml4e->writable = 1;
+        pml4e->user = (flags & 1) ? 1 : 0;
+        pml4e->address = ((u64)pdp >> 12);
+    }
+    
+    page_table *pdp = (page_table*)((u64)(pml4e->address << 12));
+    page_table_entry *pdpe = &pdp->entries[PDP_INDEX(vaddr)];
+    
+    if (!pdpe->present) {
+        page_table *pd = alloc_page_table();
+        if (!pd) return;
+        kernel_memset(pdpe, 0, sizeof(page_table_entry));
+        pdpe->present = 1;
+        pdpe->writable = 1;
+        pdpe->user = (flags & 1) ? 1 : 0;
+        pdpe->address = ((u64)pd >> 12);
+    }
+    
+    page_table *pd = (page_table*)((u64)(pdpe->address << 12));
+    page_table_entry *pde = &pd->entries[PD_INDEX(vaddr)];
+    
+    if (!pde->present) {
+        page_table *pt = alloc_page_table();
+        if (!pt) return;
+        kernel_memset(pde, 0, sizeof(page_table_entry));
+        pde->present = 1;
+        pde->writable = 1;
+        pde->user = (flags & 1) ? 1 : 0;
+        pde->address = ((u64)pt >> 12);
+    }
+    
+    page_table *pt = (page_table*)((u64)(pde->address << 12));
+    page_table_entry *pte = &pt->entries[PT_INDEX(vaddr)];
+    
+    kernel_memset(pte, 0, sizeof(page_table_entry));
+    pte->present = 1;
+    pte->writable = (flags & 2) ? 1 : 0;
+    pte->user = (flags & 1) ? 1 : 0;
+    pte->no_execute = (flags & 4) ? 1 : 0;
+    pte->address = (paddr >> 12);
+    
+    asm volatile("invlpg (%0)" : : "r" (vaddr) : "memory");
+}
+
+static void unmap_page(u64 vaddr) {
+    page_table *pml4 = kernel_pml4;
+    page_table_entry *pml4e = &pml4->entries[PML4_INDEX(vaddr)];
+    
+    if (!pml4e->present) return;
+    
+    page_table *pdp = (page_table*)((u64)(pml4e->address << 12));
+    page_table_entry *pdpe = &pdp->entries[PDP_INDEX(vaddr)];
+    
+    if (!pdpe->present) return;
+    
+    page_table *pd = (page_table*)((u64)(pdpe->address << 12));
+    page_table_entry *pde = &pd->entries[PD_INDEX(vaddr)];
+    
+    if (!pde->present) return;
+    
+    page_table *pt = (page_table*)((u64)(pde->address << 12));
+    page_table_entry *pte = &pt->entries[PT_INDEX(vaddr)];
+    
+    kernel_memset(pte, 0, sizeof(page_table_entry));
+    
+    asm volatile("invlpg (%0)" : : "r" (vaddr) : "memory");
+}
+
+static page_table *create_address_space(void) {
+    page_table *pml4 = alloc_page_table();
+    if (!pml4) return NULL;
+    
+    kernel_memcpy(pml4, kernel_pml4, PAGE_SIZE);
+    
+    return pml4;
+}
+
+static void destroy_address_space(page_table *pml4) {
+    for (u64 i = 256; i < 512; i++) {
+        if (pml4->entries[i].present) {
+            page_table *pdp = (page_table*)((u64)(pml4->entries[i].address << 12));
+            for (u64 j = 0; j < 512; j++) {
+                if (pdp->entries[j].present) {
+                    page_table *pd = (page_table*)((u64)(pdp->entries[j].address << 12));
+                    for (u64 k = 0; k < 512; k++) {
+                        if (pd->entries[k].present) {
+                            page_table *pt = (page_table*)((u64)(pd->entries[k].address << 12));
+                            free_page_table(pt);
+                        }
+                    }
+                    free_page_table(pd);
+                }
+            }
+            free_page_table(pdp);
+        }
+    }
+    free_page_table(pml4);
+}
+
+static u64 virt_to_phys(u64 vaddr) {
+    page_table *pml4 = kernel_pml4;
+    page_table_entry *pml4e = &pml4->entries[PML4_INDEX(vaddr)];
+    
+    if (!pml4e->present) return 0;
+    
+    page_table *pdp = (page_table*)((u64)(pml4e->address << 12));
+    page_table_entry *pdpe = &pdp->entries[PDP_INDEX(vaddr)];
+    
+    if (!pdpe->present) return 0;
+    
+    page_table *pd = (page_table*)((u64)(pdpe->address << 12));
+    page_table_entry *pde = &pd->entries[PD_INDEX(vaddr)];
+    
+    if (!pde->present) return 0;
+    
+    page_table *pt = (page_table*)((u64)(pde->address << 12));
+    page_table_entry *pte = &pt->entries[PT_INDEX(vaddr)];
+    
+    if (!pte->present) return 0;
+    
+    return (pte->address << 12) | (vaddr & 0xFFF);
+}
+
+static void vmm_init(void) {
+    kernel_pml4 = alloc_page_table();
+    
+    for (u64 i = 0; i < 0x100000000; i += PAGE_SIZE) {
+        map_page(i, i, 3);
+    }
+    
+    u64 kernel_start = 0xFFFFFFFF80000000;
+    for (u64 i = 0; i < 0x40000000; i += PAGE_SIZE) {
+        map_page(kernel_start + i, i, 3);
+    }
+    
+    asm volatile("mov %0, %%cr3" : : "r" (kernel_pml4));
 }
 
 void pic_remap(void) {
@@ -731,19 +950,44 @@ static void storage_init(void) {
 
 #define KERNEL_HEAP_SIZE (64 * 1024 * 1024)
 
+static void* physical_alloc(u64 pages) {
+    for (u64 i = 0; i < memory_map_size; i++) {
+        if (!memory_map[i].used && memory_map[i].size >= pages * PAGE_SIZE) {
+            memory_map[i].used = 1;
+            void* addr = (void*)memory_map[i].start;
+            memory_map[i].start += pages * PAGE_SIZE;
+            memory_map[i].size -= pages * PAGE_SIZE;
+            return addr;
+        }
+    }
+    return NULL;
+}
+
+static void physical_free(void* addr, u64 pages) {
+    (void)pages;
+    for (u64 i = 0; i < memory_map_size; i++) {
+        if ((u64)addr >= memory_map[i].start && (u64)addr < memory_map[i].end) {
+            memory_map[i].used = 0;
+            return;
+        }
+    }
+}
+
 void mm_init(u64 mem_size) {
-    memory_map_size = mem_size / PAGE_SIZE;
-    memory_map = (memory_block*)kmalloc(memory_map_size * sizeof(memory_block));
-    memset(memory_map, 0, memory_map_size * sizeof(memory_block));
+    memory_map_size = mem_size / PAGE_SIZE / 64;
+    memory_map = (memory_block*)0x100000;
     
-    memory_map[0].start = 0x100000;
+    memory_map[0].start = 0x200000;
     memory_map[0].end = mem_size;
-    memory_map[0].size = mem_size - 0x100000;
+    memory_map[0].size = mem_size - 0x200000;
     memory_map[0].type = 1;
     memory_map[0].used = 0;
     memory_map[0].next = 0;
     
+    vmm_init();
+    
     kprintf("Memory: %d MB total\n", (int)(mem_size / 1024 / 1024));
+    kprintf("VMM: 64-bit paging initialized\n");
 }
 
 void *kmalloc(usize_t size) {
@@ -762,7 +1006,7 @@ void *kmalloc(usize_t size) {
 
 void *kcalloc(usize_t num, usize_t size) {
     void *ptr = kmalloc(num * size);
-    if (ptr) memset(ptr, 0, num * size);
+    if (ptr) kernel_memset(ptr, 0, num * size);
     return ptr;
 }
 
@@ -773,14 +1017,6 @@ void *krealloc(void *ptr, usize_t size) {
 
 void kfree(void *ptr) {
     (void)ptr;
-}
-
-void *sys_alloc(u64 size) {
-    return kmalloc(size);
-}
-
-void sys_free(void *ptr) {
-    kfree(ptr);
 }
 
 static void process_add(process_t *proc) {
@@ -800,10 +1036,16 @@ u64 sys_fork(void) {
     process_t *child = (process_t*)kmalloc(sizeof(process_t));
     if (!child) return -ENOMEM;
     
-    memcpy(child, current_process, sizeof(process_t));
+    kernel_memcpy(child, current_process, sizeof(process_t));
     child->pid = next_pid++;
     child->ppid = current_process->pid;
     child->state = 0;
+    
+    child->cr3 = (u64)create_address_space();
+    if (!child->cr3) {
+        kfree(child);
+        return -ENOMEM;
+    }
     
     child->kstack = (u64)kmalloc(KERNEL_STACK_SIZE);
     child->stack = (u64)kmalloc(USER_STACK_SIZE);
@@ -814,13 +1056,12 @@ u64 sys_fork(void) {
 
 void sched_init(void) {
     current_process = (process_t*)kmalloc(sizeof(process_t));
-    memset(current_process, 0, sizeof(process_t));
+    kernel_memset(current_process, 0, sizeof(process_t));
     current_process->pid = next_pid++;
     current_process->state = 1;
-    strcpy(current_process->name, "kernel");
+    current_process->cr3 = (u64)kernel_pml4;
+    kernel_strcpy(current_process->name, "kernel");
     process_add(current_process);
-    
-    kprintf("Scheduler: 64-bit initialization\n");
 }
 
 u64 fork(void) {
@@ -830,10 +1071,23 @@ u64 fork(void) {
 void exit(int code) {
     current_process->exit_code = code;
     current_process->state = 2;
+    if (current_process->cr3 != (u64)kernel_pml4) {
+        destroy_address_space((page_table*)current_process->cr3);
+    }
 }
 
 void schedule(void) {
-    return;
+    if (!process_list) return;
+    
+    process_t *next = current_process->next;
+    while (next != current_process) {
+        if (next->state == 0) {
+            current_process = next;
+            asm volatile("mov %0, %%cr3" : : "r" (current_process->cr3));
+            return;
+        }
+        next = next->next;
+    }
 }
 
 void yield(void) {
@@ -889,16 +1143,16 @@ static u64 sys_open(u64 pathname, u64 flags, u64 mode, u64 arg4, u64 arg5, u64 a
         if (!open_files[i]) {
             file_t *file = (file_t*)kmalloc(sizeof(file_t));
             if (!file) return -ENOMEM;
-            memset(file, 0, sizeof(file_t));
+            kernel_memset(file, 0, sizeof(file_t));
             
             file->flags = flags;
             file->mode = mode;
             open_files[i] = file;
             
             for (u32 j = 0; j < num_mounts; j++) {
-                if (strncmp((char*)pathname, mount_paths[j], strlen(mount_paths[j])) == 0) {
+                if (kernel_strncmp((char*)pathname, mount_paths[j], kernel_strlen(mount_paths[j])) == 0) {
                     if (mounted_fs[j]->lookup) {
-                        file->inode = mounted_fs[j]->lookup(mount_points[j], (char*)pathname + strlen(mount_paths[j]));
+                        file->inode = mounted_fs[j]->lookup(mount_points[j], (char*)pathname + kernel_strlen(mount_paths[j]));
                     }
                     break;
                 }
@@ -936,9 +1190,9 @@ static u64 sys_execve(u64 pathname, u64 argv, u64 envp, u64 arg4, u64 arg5, u64 
             u64 addr = phdr->vaddr;
             u64 offset = phdr->offset;
             void *dest = (void*)addr;
-            memcpy(dest, (u8*)header + offset, phdr->filesz);
+            kernel_memcpy(dest, (u8*)header + offset, phdr->filesz);
             if (phdr->memsz > phdr->filesz) {
-                memset((u8*)dest + phdr->filesz, 0, phdr->memsz - phdr->filesz);
+                kernel_memset((u8*)dest + phdr->filesz, 0, phdr->memsz - phdr->filesz);
             }
         }
     }
@@ -992,11 +1246,27 @@ static u64 sys_mmap(u64 addr, u64 length, u64 prot, u64 flags, u64 fd, u64 offse
         start = current_process->mmap;
         current_process->mmap += length;
     }
+    
+    u64 pages = (length + PAGE_SIZE - 1) / PAGE_SIZE;
+    for (u64 i = 0; i < pages; i++) {
+        void *phys = physical_alloc(1);
+        if (!phys) return -ENOMEM;
+        map_page(start + i * PAGE_SIZE, (u64)phys, 3);
+    }
+    
     return start;
 }
 
 static u64 sys_munmap(u64 addr, u64 length, u64 arg3, u64 arg4, u64 arg5, u64 arg6) {
-    (void)addr; (void)length; (void)arg3; (void)arg4; (void)arg5; (void)arg6;
+    (void)arg3; (void)arg4; (void)arg5; (void)arg6;
+    u64 pages = (length + PAGE_SIZE - 1) / PAGE_SIZE;
+    for (u64 i = 0; i < pages; i++) {
+        u64 phys = virt_to_phys(addr + i * PAGE_SIZE);
+        if (phys) {
+            physical_free((void*)phys, 1);
+        }
+        unmap_page(addr + i * PAGE_SIZE);
+    }
     return 0;
 }
 
@@ -1059,12 +1329,12 @@ static u64 sys_kill(u64 pid, u64 sig, u64 arg3, u64 arg4, u64 arg5, u64 arg6) {
 static u64 sys_uname(u64 buf, u64 arg2, u64 arg3, u64 arg4, u64 arg5, u64 arg6) {
     (void)arg2; (void)arg3; (void)arg4; (void)arg5; (void)arg6;
     struct utsname *uts = (struct utsname*)buf;
-    strcpy(uts->sysname, "BXKernel");
-    strcpy(uts->nodename, "localhost");
-    strcpy(uts->release, "1.0");
-    strcpy(uts->version, "64-bit");
-    strcpy(uts->machine, "x86_64");
-    strcpy(uts->domainname, "");
+    kernel_strcpy(uts->sysname, "BXKernel");
+    kernel_strcpy(uts->nodename, "localhost");
+    kernel_strcpy(uts->release, "1.0");
+    kernel_strcpy(uts->version, "64-bit");
+    kernel_strcpy(uts->machine, "x86_64");
+    kernel_strcpy(uts->domainname, "");
     return 0;
 }
 
@@ -1130,9 +1400,9 @@ static u64 sys_chdir(u64 path, u64 arg2, u64 arg3, u64 arg4, u64 arg5, u64 arg6)
     (void)arg2; (void)arg3; (void)arg4; (void)arg5; (void)arg6;
     char *cpath = (char*)path;
     for (u32 i = 0; i < num_mounts; i++) {
-        if (strncmp(cpath, mount_paths[i], strlen(mount_paths[i])) == 0) {
+        if (kernel_strncmp(cpath, mount_paths[i], kernel_strlen(mount_paths[i])) == 0) {
             if (mounted_fs[i]->lookup) {
-                inode_t *inode = mounted_fs[i]->lookup(mount_points[i], cpath + strlen(mount_paths[i]));
+                inode_t *inode = mounted_fs[i]->lookup(mount_points[i], cpath + kernel_strlen(mount_paths[i]));
                 if (inode) {
                     current_process->cwd = (u64)inode;
                     return 0;
@@ -1146,21 +1416,21 @@ static u64 sys_chdir(u64 path, u64 arg2, u64 arg3, u64 arg4, u64 arg5, u64 arg6)
 static u64 sys_getcwd(u64 buf, u64 size, u64 arg3, u64 arg4, u64 arg5, u64 arg6) {
     (void)arg3; (void)arg4; (void)arg5; (void)arg6;
     if (!current_process->cwd) {
-        strncpy((char*)buf, "/", size);
+        kernel_strncpy((char*)buf, "/", size);
         return 1;
     }
     inode_t *inode = (inode_t*)current_process->cwd;
-    strncpy((char*)buf, inode->name, size);
-    return strlen((char*)buf);
+    kernel_strncpy((char*)buf, inode->name, size);
+    return kernel_strlen((char*)buf);
 }
 
 static u64 sys_mkdir(u64 pathname, u64 mode, u64 arg3, u64 arg4, u64 arg5, u64 arg6) {
     (void)arg3; (void)arg4; (void)arg5; (void)arg6;
     char *cpath = (char*)pathname;
     for (u32 i = 0; i < num_mounts; i++) {
-        if (strncmp(cpath, mount_paths[i], strlen(mount_paths[i])) == 0) {
+        if (kernel_strncmp(cpath, mount_paths[i], kernel_strlen(mount_paths[i])) == 0) {
             if (mounted_fs[i]->create) {
-                mounted_fs[i]->create(mount_points[i], cpath + strlen(mount_paths[i]), mode | S_IFDIR);
+                mounted_fs[i]->create(mount_points[i], cpath + kernel_strlen(mount_paths[i]), mode | S_IFDIR);
                 return 0;
             }
         }
@@ -1172,9 +1442,9 @@ static u64 sys_rmdir(u64 pathname, u64 arg2, u64 arg3, u64 arg4, u64 arg5, u64 a
     (void)arg2; (void)arg3; (void)arg4; (void)arg5; (void)arg6;
     char *cpath = (char*)pathname;
     for (u32 i = 0; i < num_mounts; i++) {
-        if (strncmp(cpath, mount_paths[i], strlen(mount_paths[i])) == 0) {
+        if (kernel_strncmp(cpath, mount_paths[i], kernel_strlen(mount_paths[i])) == 0) {
             if (mounted_fs[i]->unlink) {
-                mounted_fs[i]->unlink(mount_points[i], cpath + strlen(mount_paths[i]));
+                mounted_fs[i]->unlink(mount_points[i], cpath + kernel_strlen(mount_paths[i]));
                 return 0;
             }
         }
@@ -1186,9 +1456,9 @@ static u64 sys_unlink(u64 pathname, u64 arg2, u64 arg3, u64 arg4, u64 arg5, u64 
     (void)arg2; (void)arg3; (void)arg4; (void)arg5; (void)arg6;
     char *cpath = (char*)pathname;
     for (u32 i = 0; i < num_mounts; i++) {
-        if (strncmp(cpath, mount_paths[i], strlen(mount_paths[i])) == 0) {
+        if (kernel_strncmp(cpath, mount_paths[i], kernel_strlen(mount_paths[i])) == 0) {
             if (mounted_fs[i]->unlink) {
-                mounted_fs[i]->unlink(mount_points[i], cpath + strlen(mount_paths[i]));
+                mounted_fs[i]->unlink(mount_points[i], cpath + kernel_strlen(mount_paths[i]));
                 return 0;
             }
         }
@@ -1224,12 +1494,12 @@ static u64 sys_stat(u64 path, u64 statbuf, u64 arg3, u64 arg4, u64 arg5, u64 arg
     char *cpath = (char*)path;
     struct stat *st = (struct stat*)statbuf;
     
-    for (u32 i = 0; i < num_mounts; i++) {
-        if (strncmp(cpath, mount_paths[i], strlen(mount_paths[i])) == 0) {
-            if (mounted_fs[i]->lookup) {
-                inode_t *inode = mounted_fs[i]->lookup(mount_points[i], cpath + strlen(mount_paths[i]));
+    for (u32 j = 0; j < num_mounts; j++) {
+        if (kernel_strncmp(cpath, mount_paths[j], kernel_strlen(mount_paths[j])) == 0) {
+            if (mounted_fs[j]->lookup) {
+                inode_t *inode = mounted_fs[j]->lookup(mount_points[j], cpath + kernel_strlen(mount_paths[j]));
                 if (inode) {
-                    st->st_dev = i;
+                    st->st_dev = j;
                     st->st_ino = inode->inode;
                     st->st_mode = inode->mode;
                     st->st_nlink = inode->links;
@@ -1314,7 +1584,7 @@ static u64 sys_getdents(u64 fd, u64 dirp, u64 count, u64 arg4, u64 arg5, u64 arg
         dent->d_ino = 1;
         dent->d_off = 0;
         dent->d_reclen = sizeof(struct dirent);
-        strcpy(dent->d_name, ".");
+        kernel_strcpy(dent->d_name, ".");
         dent->d_type = DT_DIR;
         file->pos++;
         return sizeof(struct dirent);
@@ -1322,7 +1592,7 @@ static u64 sys_getdents(u64 fd, u64 dirp, u64 count, u64 arg4, u64 arg5, u64 arg
         dent->d_ino = 2;
         dent->d_off = 0;
         dent->d_reclen = sizeof(struct dirent);
-        strcpy(dent->d_name, "..");
+        kernel_strcpy(dent->d_name, "..");
         dent->d_type = DT_DIR;
         file->pos++;
         return sizeof(struct dirent);
@@ -1338,10 +1608,10 @@ static u64 sys_mount(u64 source, u64 target, u64 fstype, u64 flags, u64 data, u6
     char *ctarget = (char*)target;
     
     for (u32 i = 0; i < num_filesystems; i++) {
-        if (strcmp(filesystems[i].name, cfstype) == 0) {
+        if (kernel_strcmp(filesystems[i].name, cfstype) == 0) {
             mounted_fs[num_mounts] = (fs_ops*)filesystems[i].ops;
             mount_points[num_mounts] = filesystems[i].data;
-            strcpy(mount_paths[num_mounts], ctarget);
+            kernel_strcpy(mount_paths[num_mounts], ctarget);
             num_mounts++;
             return 0;
         }
@@ -1353,11 +1623,11 @@ static u64 sys_umount(u64 target, u64 arg2, u64 arg3, u64 arg4, u64 arg5, u64 ar
     (void)arg2; (void)arg3; (void)arg4; (void)arg5; (void)arg6;
     char *ctarget = (char*)target;
     for (u32 i = 0; i < num_mounts; i++) {
-        if (strcmp(mount_paths[i], ctarget) == 0) {
+        if (kernel_strcmp(mount_paths[i], ctarget) == 0) {
             for (u32 j = i; j < num_mounts - 1; j++) {
                 mounted_fs[j] = mounted_fs[j + 1];
                 mount_points[j] = mount_points[j + 1];
-                strcpy(mount_paths[j], mount_paths[j + 1]);
+                kernel_strcpy(mount_paths[j], mount_paths[j + 1]);
             }
             num_mounts--;
             return 0;
@@ -1389,7 +1659,7 @@ static u64 sys_getegid(u64 arg1, u64 arg2, u64 arg3, u64 arg4, u64 arg5, u64 arg
 static void register_filesystem(const char *name, fs_ops *ops, u64 data) {
     if (num_filesystems >= MAX_FILESYSTEMS) return;
     
-    strcpy(filesystems[num_filesystems].name, name);
+    kernel_strcpy(filesystems[num_filesystems].name, name);
     filesystems[num_filesystems].ops = (u64)ops;
     filesystems[num_filesystems].data = data;
     num_filesystems++;
@@ -1400,12 +1670,122 @@ static void register_device(u32 major, u32 minor, const char *name, device_ops *
     
     devices[num_devices].major = major;
     devices[num_devices].minor = minor;
-    strcpy(devices[num_devices].name, name);
+    kernel_strcpy(devices[num_devices].name, name);
     if (ops) {
         devices[num_devices].ops = *ops;
     }
     num_devices++;
 }
+
+static inode_t* procfs_lookup(u64 root, const char *path) {
+    (void)root;
+    static inode_t proc_inode;
+    kernel_memset(&proc_inode, 0, sizeof(inode_t));
+    proc_inode.inode = next_inode++;
+    proc_inode.mode = S_IFDIR | 0755;
+    proc_inode.links = 1;
+    
+    if (kernel_strcmp(path, "/") == 0) {
+        kernel_strcpy(proc_inode.name, "/proc");
+        return &proc_inode;
+    }
+    
+    return NULL;
+}
+
+static dirent_t* procfs_readdir(u64 root, u64 offset) {
+    (void)root;
+    static dirent_t dirent;
+    kernel_memset(&dirent, 0, sizeof(dirent_t));
+    
+    if (offset == 0) {
+        kernel_strcpy(dirent.name, ".");
+        dirent.type = DT_DIR;
+        dirent.inode = 1;
+    } else if (offset == 1) {
+        kernel_strcpy(dirent.name, "..");
+        dirent.type = DT_DIR;
+        dirent.inode = 1;
+    } else if (offset == 2) {
+        kernel_strcpy(dirent.name, "cpuinfo");
+        dirent.type = DT_REG;
+        dirent.inode = next_inode++;
+    } else if (offset == 3) {
+        kernel_strcpy(dirent.name, "meminfo");
+        dirent.type = DT_REG;
+        dirent.inode = next_inode++;
+    } else if (offset == 4) {
+        kernel_strcpy(dirent.name, "version");
+        dirent.type = DT_REG;
+        dirent.inode = next_inode++;
+    } else {
+        return NULL;
+    }
+    
+    return &dirent;
+}
+
+static u64 procfs_read(file_t *file, void *buf, u64 count, u64 offset) {
+    static char cpuinfo[] = "processor: 0\nvendor_id: BXKernel\ncpu family: 6\nmodel: 158\nmodel name: BXKernel Virtual CPU\n";
+    static char meminfo[] = "MemTotal: 1024000 kB\nMemFree: 819200 kB\n";
+    static char version[] = "BXKernel 1.0 x86_64\n";
+    
+    char *data = NULL;
+    u64 len = 0;
+    
+    if (kernel_strstr(file->inode->name, "cpuinfo")) {
+        data = cpuinfo;
+        len = sizeof(cpuinfo) - 1;
+    } else if (kernel_strstr(file->inode->name, "meminfo")) {
+        data = meminfo;
+        len = sizeof(meminfo) - 1;
+    } else if (kernel_strstr(file->inode->name, "version")) {
+        data = version;
+        len = sizeof(version) - 1;
+    }
+    
+    if (!data) return 0;
+    
+    if (offset >= len) return 0;
+    if (offset + count > len) count = len - offset;
+    
+    kernel_memcpy(buf, data + offset, count);
+    return count;
+}
+
+static void tmpfs_create(u64 root, const char *name, u32 mode) {
+    (void)root;
+    (void)name;
+    (void)mode;
+}
+
+static inode_t* tmpfs_lookup(u64 root, const char *path) {
+    (void)root;
+    (void)path;
+    return NULL;
+}
+
+static fs_ops procfs_ops = {
+    .mount = NULL,
+    .umount = NULL,
+    .lookup = procfs_lookup,
+    .read = procfs_read,
+    .write = NULL,
+    .create = NULL,
+    .unlink = NULL,
+    .readdir = procfs_readdir
+};
+
+static fs_ops tmpfs_ops = {
+    .mount = NULL,
+    .umount = NULL,
+    .lookup = tmpfs_lookup,
+    .read = NULL,
+    .write = NULL,
+    .create = tmpfs_create,
+    .unlink = NULL,
+    .readdir = NULL
+};
 
 static void syscall_init(void) {
     for (int i = 0; i < 512; i++) {
@@ -1473,6 +1853,7 @@ void tty_switch(int num) {
     if (num >= 0 && num < MAX_TTYS) {
         active_tty = num;
         vga_clear();
+        kprintf("Active TTY: %d\n", num + 1);
     }
 }
 
@@ -1551,25 +1932,32 @@ static void acpi_init(void) {
 
 static void pci_init(void) {
     pci_scan();
+    kprintf("PCI: %d devices found\n", num_pci);
 }
 
 static void usb_detect(void) {
     usb_init();
+    kprintf("USB: %d controllers found\n", num_usb);
 }
 
 static void network_detect(void) {
     network_init();
+    kprintf("Network: %d adapters found\n", num_net);
 }
 
 static void audio_detect(void) {
     audio_init();
+    kprintf("Audio: %d devices found\n", num_audio);
 }
 
 static void storage_detect(void) {
     storage_init();
+    kprintf("Storage: %d devices found\n", num_storage);
 }
 
 static void filesystem_init(void) {
+    register_filesystem("procfs", &procfs_ops, 0);
+    register_filesystem("tmpfs", &tmpfs_ops, 0);
     register_filesystem("ext2", NULL, 0);
     register_filesystem("ext3", NULL, 0);
     register_filesystem("ext4", NULL, 0);
@@ -1577,11 +1965,6 @@ static void filesystem_init(void) {
     register_filesystem("fat32", NULL, 0);
     register_filesystem("ntfs", NULL, 0);
     register_filesystem("iso9660", NULL, 0);
-    register_filesystem("proc", NULL, 0);
-    register_filesystem("sysfs", NULL, 0);
-    register_filesystem("tmpfs", NULL, 0);
-    register_filesystem("devfs", NULL, 0);
-    register_filesystem("ramfs", NULL, 0);
 }
 
 static void driver_init(void) {
@@ -1600,8 +1983,6 @@ static void driver_init(void) {
     
     device_ops urandom_ops = {0};
     register_device(1, 9, "urandom", &urandom_ops);
-    
-    kprintf("Drivers: %d devices registered\n", num_devices);
 }
 
 void kmain(unsigned long magic, unsigned long mb_info) {
@@ -1609,8 +1990,8 @@ void kmain(unsigned long magic, unsigned long mb_info) {
     (void)mb_info;
     
     vga_clear();
-    
-    kprintf("_ \n");
+        
+    kprintf("Booted in 64-bit long mode\n");
     
     tty_init();
     pic_remap();
