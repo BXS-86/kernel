@@ -1728,7 +1728,7 @@ static dirent_t* procfs_readdir(u64 root, u64 offset) {
 static u64 procfs_read(file_t *file, void *buf, u64 count, u64 offset) {
     static char cpuinfo[] = "processor: 0\nvendor_id: BXKernel\ncpu family: 6\nmodel: 158\nmodel name: BXKernel Virtual CPU\n";
     static char meminfo[] = "MemTotal: 1024000 kB\nMemFree: 819200 kB\n";
-    static char version[] = "BXKernel 1.0 x86_64\n";
+    static char version[] = "BXKernel x86_64\n";
     
     char *data = NULL;
     u64 len = 0;
